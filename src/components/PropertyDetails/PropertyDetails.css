@@ -1,0 +1,221 @@
+
+.property-details-overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5); 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 1000; 
+  }
+  
+  .property-details-modal {
+    display: flex;
+    flex-direction: column;
+
+    background-color: #fff;
+    border: 1px solid #ccc;
+    padding: 20px;
+    max-width: 80%;
+    max-height: 80%;
+    overflow-y: auto;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+  }
+  
+  .property-details-modal h2 {
+    font-size: 1.5rem;
+    margin-top: 0;
+  }
+  
+  .property-details-modal p {
+    font-size: 1.2rem;
+    margin: 8px 0;
+  }
+  
+  .property-details-modal img {
+    max-width: 100%;
+    height: auto;
+    margin-top: 10px;
+    background-size: cover;
+  }
+  
+  .property-details-modal button {
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    padding: 8px 16px;
+    cursor: pointer;
+    font-size: 1.2rem;
+    transition: background-color 0.3s;
+    margin-top: 10px;
+  }
+  
+  .property-details-modal button:hover {
+    background-color: #0056b3;
+  }
+
+  .property-action {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+  }
+
+  .property-action button:first-child {
+    background-color: #e74c3c;
+
+  }
+  
+
+.amenity-list {
+    margin-top: 20px;
+  }
+  
+  .amenity-list h3 {
+    font-size: 1.3rem;
+    margin-top: 0;
+  }
+  
+  .amenity-list ul {
+    margin-top: 1rem;
+    list-style-type: disc;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    gap: 2rem;
+  }
+  
+  .amenity-list ul div {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    border-bottom: 1px solid black;
+    padding-bottom: 5px;
+    
+}
+.amenity-list ul div img {
+    display: block;
+    width: 30px;
+    height: 30px;
+    margin-top: 0;
+  }
+  
+  .amenity-list li {
+
+    font-size: 1.3rem;
+    margin: 5px 0;
+  }
+ 
+  
+  .description {
+    margin-top: 20px;
+  }
+  
+  .description h3 {
+    font-size: 1.3rem;
+    margin-top: 0;
+  }
+  
+  .description p {
+    font-size: 1.1rem;
+    margin: 5px 0;
+  }
+  
+  .available-from {
+    margin-top: 20px;
+  }
+  
+  .available-from h3 {
+    font-size: 1.3rem;
+    margin-top: 0;
+  }
+  
+  .available-from p {
+    font-size: 1.1rem;
+    margin: 5px 0;
+  }
+
+
+
+.booking-modal {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5); 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 1001; 
+  }
+  
+
+.booking-modal form {
+    background-color: #fff;
+    padding: 20px;
+    width: 400px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+    margin: 2rem;
+  }
+  
+  .booking-modal h3 {
+    font-size: 1.5rem;
+    margin-bottom: 10px;
+  }
+  
+  .booking-modal label {
+    display: block;
+    margin-bottom: 5px;
+  }
+  
+  .booking-modal input[type="text"],
+  .booking-modal input[type="date"] {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+  }
+  
+  .booking-modal .error {
+    color: #e74c3c;
+    font-size: 0.9rem;
+    margin-top: -10px;
+    margin-bottom: 10px;
+  }
+  
+  .booking-modal button[type="submit"] {
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    padding: 8px 16px;
+    cursor: pointer;
+    font-size: 1rem;
+    transition: background-color 0.3s;
+  }
+  
+  .booking-modal button[type="submit"]:hover {
+    background-color: #0056b3;
+  }
+
+  .booking-modal .form-field:last-child {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  .booking-modal .form-field:last-child button:last-child {
+    background-color: #e74c3c;
+  }
+  
+
+  .confirmation-message {
+    margin-top: 2rem;
+    text-align: center;
+    font-size: 2rem;
+  }
+  
+  
